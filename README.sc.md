@@ -34,7 +34,7 @@
 
 在开始训练之前，在后台启动`tensorboard`。TensorBoard是一个用于监测和检查的工具，包括在tensorflow中。你将使用它来查看训练进度。
 
-```shell
+```
 tensorboard --logdir training_summaries &
 ```
 
@@ -52,7 +52,7 @@ tensorboard --logdir training_summaries &
 
 你可以使用python命令查看帮助信息。
 
-```shell
+```
 python -m retrain -h
 ```
 
@@ -62,7 +62,7 @@ python -m retrain -h
 
 通过下面的代码开始你的训练：
 
-```shell
+```
 python -m retrain \
   --bottleneck_dir=tf_files/bottlenecks \
   --how_many_training_steps=500 \

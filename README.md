@@ -49,7 +49,7 @@ tensorboard --logdir training_summaries &
 
 You can run the script using the python command. Take a minute to skim its "help".
 
-```shell
+```
 python -m retrain -h
 ```
 
@@ -59,7 +59,7 @@ As noted in the introduction, ImageNet models are networks with millions of para
 
 Start your retraining with one big command:
 
-```shell
+```
 python -m retrain \
   --bottleneck_dir=tf_files/bottlenecks \
   --how_many_training_steps=500 \
@@ -80,7 +80,7 @@ It may take a while to finish the training After the training 'retrained_graph.p
 
 ## Testing
 
-```shell
+```
 python label.py [image]
 ```
 
