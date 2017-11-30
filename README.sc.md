@@ -12,7 +12,7 @@
 
 这个Demo展示了通过简单训练识别图片的过程。
 
-![Screen Shot 2017-11-30 at 18.11.40](/Users/sephiroth/Desktop/Screen Shot 2017-11-30 at 18.11.40.png)
+![img](https://github.com/Wanguy/Inception_Tensorflow/blob/master/img/Screen%20Shot.png)
 
 （训练500次，300张特征图下的准确率）
 

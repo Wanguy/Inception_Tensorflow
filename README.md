@@ -1,5 +1,5 @@
 # Inception_Tensorflow
-
+[![Travis](https://img.shields.io/badge/Language-SC-blue.svg)](https://github.com/Wanguy/Inception_Tensorflow/blob/master/README.sc.md) [![Travis](https://img.shields.io/badge/Python-3.6-brightgreen.svg)]() [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 
 ## Introduction
 
@@ -11,7 +11,7 @@ In this demo you need install TensorFlow. You can reference [tensorflow Github](
 
 The Demo perform an ability to identify images after simple training.
 
-![Screen Shot 2017-11-30 at 18.11.40](/Users/sephiroth/Desktop/Screen Shot 2017-11-30 at 18.11.40.png)
+![img](https://github.com/Wanguy/Inception_Tensorflow/blob/master/img/Screen%20Shot.png)
 
 (accuracy on 500 times training and 300 feature images)
 
@@ -55,7 +55,7 @@ python -m retrain -h
 
 ## Training
 
-As noted in the introduction, Imagenet models are networks with millions of parameters that can differentiate a large number of classes. We're only training the final layer of that network, so training will end in a reasonable amount of time.
+As noted in the introduction, ImageNet models are networks with millions of parameters that can differentiate a large number of classes. We're only training the final layer of that network, so training will end in a reasonable amount of time.
 
 Start your retraining with one big command:
 
@@ -74,7 +74,7 @@ python -m retrain \
 >
 > note the `--summaries_dir` option, sending training progress reports to the directory that tensorboard is monitoring.
 
-This script downloads the pre-trained model, adds a new final layer, and trains that layer on the flower photos you've downloaded. You can view training process via TensorBoard.
+This script downloads the pre-trained model, adds a new final layer, and trains that layer on the feature photos you've downloaded. You can view training progress via TensorBoard.
 
 It may take a while to finish the training After the training 'retrained_graph.pb' and 'retrained_labels.txt' will be generated.
 
